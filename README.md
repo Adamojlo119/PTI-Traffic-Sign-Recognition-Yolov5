@@ -2,7 +2,7 @@
 
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/) environment, including
-[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/) with CUDA and cuDNN.
+[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/) with CUDA 11.8 and cuDNN.
 
 ```bash
 git clone https://github.com/Adamojlo119/PTI-Traffic-Sign-Recognition-Yolov5.git  # clone
