@@ -13,5 +13,5 @@ pip install -r requirements.txt  # install
 ## <div align="center">Train</div>
 
 ```bash
-py train.py --img 640 --data data/data.yaml --epochs 50 --weights '' --cfg models/yolov5s.yaml --batch-size 32 --cache ram
+py train.py --img 640 --data dataset/data.yaml --epochs 50 --weights '' --cfg models/yolov5s.yaml --batch-size 32 --cache ram
 ```
