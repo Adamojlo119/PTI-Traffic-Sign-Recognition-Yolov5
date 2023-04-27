@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['Czerwone swiatlo', 'Droga z pierwszenstwem', 'Dzieci', 'Ograniczenie predkosci do 100', 'Ograniczenie predkosci do 120', 'Ograniczenie predkosci do 20', 'Ograniczenie predkosci do 30', 'Ograniczenie predkosci do 40', 'Ograniczenie predkosci do 50', 'Ograniczenie predkosci do 60', 'Ograniczenie predkosci do 70', 'Ograniczenie predkosci do 80', 'Ograniczenie predkosci do 90', 'Przejscie dla pieszych', 'Stop', 'Ustap pierwszenstwa', 'Zakaz ruchu w obu kierunkach', 'Zakaz wjazdu', 'Zakaz wyprzedzania', 'Zakaz zatrzymywania sie', 'Zielone swiatlo', 'Zolte swiatlo']
+
+roboflow:
+  workspace: pti-rjlkx
+  project: pti-traffic-sign-recognition-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pti-rjlkx/pti-traffic-sign-recognition-2/dataset/1
